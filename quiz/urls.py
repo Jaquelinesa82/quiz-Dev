@@ -18,6 +18,8 @@ from django.urls import path, include
 
 from quiz.base import views
 
+from quiz.base import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
